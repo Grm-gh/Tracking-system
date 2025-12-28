@@ -14,6 +14,9 @@ const io = new Server(server, {
     methods: ["GET", "POST"]
   }
 });
+app.get("/", (req, res) => {
+  res.send("Tracking backend is running 🚀");
+});
 
 /**
  * groups structure:

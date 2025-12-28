@@ -7,6 +7,7 @@ import "leaflet/dist/leaflet.css";
 import "leaflet-routing-machine";
 import "leaflet-routing-machine/dist/leaflet-routing-machine.css";
 
+
 /* ================= SOCKET ================= */
 const socket = io(import.meta.env.VITE_SOCKET_URL || "http://localhost:3000", {
   transports: ["websocket"],
