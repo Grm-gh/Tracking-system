@@ -1,0 +1,14 @@
+@import "tailwindcss";
+.person-marker {
+  background: transparent;
+  border: none;
+  size: 2px;
+}
+@keyframes mapMove {
+  0% { background-position: 0 0; }
+  100% { background-position: 200px 200px; }
+}
+
+.animate-mapMove {
+  animation: mapMove 20s linear infinite;
+}
